@@ -1,4 +1,3 @@
-<!-- testing pr template loading issue -->
 Type of change
 
 - [ ] New feature
