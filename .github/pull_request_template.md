@@ -6,8 +6,6 @@ Type of change
 
 Implements/Fixes:
 
-description closes issue #
-
 Checklist:
 
 - [ ] I have reviewed my code
