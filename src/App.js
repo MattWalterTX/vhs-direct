@@ -2,8 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Home from "./Home.js";
+import Footer from "./Footer";
 import About from "./About.js";
-import BadURL from "./BadURL.js"
+import BadURL from "./BadURL.js";
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
         <Route path="about" element={(<About />)} />
         <Route path="/*" element={(<BadURL />)} />
       </Routes>
+      <Footer />
+      <p>~~~ Leave React boilerplate page content in App for now to fill in on non home page loads until some other content is added. ~~~</p>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
