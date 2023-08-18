@@ -7,7 +7,7 @@ const Home = () => {
     <div>
         <div className="header">
           <h4>VHS Direct</h4>
-          <button>SIGN IN</button>
+          <button className="sign-in-button">SIGN IN</button>
         </div>
       <div className="chunk">
         <div className="content-box">
@@ -43,10 +43,10 @@ const Home = () => {
       </div>
       <div className="chunk">
         <div className="content-box">
-            <h3>NOT READY TO SEAL YOUR FATE?</h3>
-            <p>BROWSE LIBRARY FOR FREE</p>
-            <button>FEAST YOUR EYES</button>
-          </div>
+          <h3>NOT READY TO SEAL YOUR FATE?</h3>
+          <p>BROWSE LIBRARY FOR FREE</p>
+          <button>FEAST YOUR EYES</button>
+        </div>
       </div>
     </div>
   )

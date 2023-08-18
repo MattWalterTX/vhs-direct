@@ -8,11 +8,11 @@ const Footer = () => {
       <div className="nav-box">
         <h4>SITEMAP</h4>
         <div className="nav-items">
-          <h6>HOME</h6>
-          <h6>ABOUT</h6>
-          <h6>BROWSE</h6>
-          <h6>SEARCH</h6>
-          <h6>FAQ</h6>
+          <p>HOME</p>
+          <p>ABOUT</p>
+          <p>BROWSE</p>
+          <p>SEARCH</p>
+          <p>FAQ</p>
         </div>
       </div>
       <div className="logo">
