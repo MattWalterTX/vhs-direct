@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="footer nav-box">
       <div className="nav-box">
-        <h4>SITEMAP</h4>
+        <h2>SITEMAP</h2>
         <div className="nav-items">
           <p>HOME</p>
           <p>ABOUT</p>
@@ -16,7 +16,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="logo">
-        <h4>VHS DIRECT</h4>
+        <h2>VHS DIRECT</h2>
       </div>
     </div>
   )

@@ -1,7 +1,7 @@
 .footer {
   border: 1px solid red;
   display: flex;
-  font-family: 'Roboto';
+  margin: 3.5em;
 }
 
 .nav-box {
