@@ -65,8 +65,20 @@
 .place-holder {
   font-family: 'Roboto Condensed', sans-serif;
   font-family: 'Russo One', sans-serif;
+  width: 30em;
 }
 
 .text-box {
   padding-top: 11em;
+}
+
+.sign-up {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.left {
+  text-align: start;
 }

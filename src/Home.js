@@ -12,10 +12,10 @@ const Home = () => {
           <button className="sign-in-button button">SIGN IN</button>
         </div>
       <div className="chunk ch1">
-        <div className="content-box">
+        <div className="content-box left">
           <h3>SKIP THE WAIT</h3>
           <p>GET VHS CASSETTES STREAMED DIRECTLY TO YOUR PREFRONTAL CORTEX</p>
-          <div>
+          <div className="sign-up">
             <button className="button">PLEDGE FEALTY</button>
             <input type="email" name="email" placeholder="EMAIL ADDRESS" className="place-holder"/>
           </div>
@@ -23,7 +23,7 @@ const Home = () => {
       </div>
       <div className="chunk img-bg-1">
         <div className="img-container">
-          <div className="text-box">
+          <div className="text-box left">
             <h3>THE BEST ESCAPISM MONEY CAN BUY.</h3>
             <p>GIVE YOUR BRAIN A BREAK FROM WORK. WE'LL TAKE GOOD CARE OF IT WHILE YOU'RE AWAY</p>
           </div>
@@ -39,7 +39,7 @@ const Home = () => {
             {/* <p>IMG goes here</p> */}
             <img src={vhs2} alt="horror cassette 2" className="vhs-img" />
           </div>
-          <div className="text-box">
+          <div className="text-box left">
             <h3>EMBRACE THE SPOOK.</h3>
             <p>UNLEASH THE HALLOWEEN SPIRIT UPON YOUR UNSUSPECTING PEERS EVERY DAY OF THE YEAR.</p>
           </div>
