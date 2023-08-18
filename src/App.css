@@ -3,7 +3,7 @@
   font-family: 'Russo One', sans-serif;
   text-align: center;
   /* background-color: rgb(206, 28, 45); */
-  background: radial-gradient(#dc2424, #340935, #290127);
+  background: radial-gradient(red 45%, #340935, #11020e);
 }
 
 .App-logo {
