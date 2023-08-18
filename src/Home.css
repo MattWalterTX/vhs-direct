@@ -1,12 +1,24 @@
 * {
   border: 1px solid red;
   font-family: 'Roboto';
-
+  font-weight: bolder;
+  color: white;
+  -webkit-text-stroke: .25px black;
 }
 
 .chunk {
   width: 100vw;
   height: 100vh;
+}
+
+.ch1 {
+  background-image: url('./assets/bg-skull1.webp');
+  background-size: cover;
+}
+
+.ch4 {
+  background-image: url('./assets/bg-tv1.webp');
+  background-size: cover;
 }
 
 .content-box {
@@ -32,4 +44,17 @@
   display: flex;
   justify-content: space-around;
   margin: 20em;
+}
+
+.img1 {
+
+}
+
+.img2 {
+
+}
+
+.button {
+  background-color: rgb(229, 160, 250);
+  color: black;
 }

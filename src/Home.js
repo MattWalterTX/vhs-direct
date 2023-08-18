@@ -7,14 +7,14 @@ const Home = () => {
     <div>
         <div className="header">
           <h4>VHS Direct</h4>
-          <button className="sign-in-button">SIGN IN</button>
+          <button className="sign-in-button button">SIGN IN</button>
         </div>
-      <div className="chunk">
+      <div className="chunk ch1">
         <div className="content-box">
           <h3>SKIP THE WAIT</h3>
           <p>GET VHS CASSETTES STREAMED DIRECTLY TO YOUR PREFRONTAL CORTEX</p>
           <div>
-            <button>PLEDGE FEALTY</button>
+            <button className="button">PLEDGE FEALTY</button>
             <input type="email" name="email" placeholder="EMAIL ADDRESS"/>
           </div>
         </div>
@@ -41,11 +41,11 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="chunk">
+      <div className="chunk ch4">
         <div className="content-box">
           <h3>NOT READY TO SEAL YOUR FATE?</h3>
           <p>BROWSE LIBRARY FOR FREE</p>
-          <button>FEAST YOUR EYES</button>
+          <button className="button">FEAST YOUR EYES</button>
         </div>
       </div>
     </div>
