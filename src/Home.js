@@ -1,5 +1,7 @@
 import React from "react";
 import './Home.css';
+import vhs1 from './assets/img-vhs1.jpeg';
+import vhs2 from './assets/img-vhs2.webp';
 
 const Home = () => {
 
@@ -26,14 +28,16 @@ const Home = () => {
             <p>GIVE YOUR BRAIN A BREAK FROM WORK. WE'LL TAKE GOOD CARE OF IT WHILE YOU'RE AWAY</p>
           </div>
           <div>
-            <p>IMG goes here</p>
+            {/* <p>IMG goes here</p> */}
+            <img src={vhs1} alt='horror cassette 1' className="vhs-img"/>
           </div>
         </div>
       </div>
       <div className="chunk">
          <div className="img-container">
           <div>
-            <p>IMG goes here</p>
+            {/* <p>IMG goes here</p> */}
+            <img src={vhs2} alt="horror cassette 2" className="vhs-img" />
           </div>
           <div>
             <h3>EMBRACE THE SPOOK.</h3>

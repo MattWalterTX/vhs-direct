@@ -43,11 +43,11 @@
   border: 1px solid blue;
   display: flex;
   justify-content: space-around;
-  margin: 20em;
+  margin: 12.5em;
 }
 
-.img1 {
-
+.vhs-img {
+  height: 30em;
 }
 
 .img2 {
