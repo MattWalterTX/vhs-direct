@@ -1,9 +1,5 @@
 * {
   border: 1px solid red;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-family: 'Russo One', sans-serif;
-  color: white;
-  -webkit-text-stroke: .25px black;
 }
 
 .chunk {
