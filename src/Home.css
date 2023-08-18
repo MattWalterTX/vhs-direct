@@ -30,8 +30,9 @@
   border: 1px solid blue;
   display: flex;
   justify-content: space-between;
+  padding: 0em 5em 0em 5em;
   position: absolute;
-  width: 100%;
+  width: 91%;
   z-index: 1;
 }
 
