@@ -21,7 +21,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="chunk">
+      <div className="chunk img-bg-1">
         <div className="img-container">
           <div>
             <h3>THE BEST ESCAPISM MONEY CAN BUY.</h3>
@@ -33,7 +33,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="chunk">
+      <div className="chunk img-bg-2">
          <div className="img-container">
           <div>
             {/* <p>IMG goes here</p> */}

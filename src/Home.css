@@ -50,8 +50,12 @@
   height: 30em;
 }
 
-.img2 {
+.img-bg-1 {
+  background-color: #180511;
+}
 
+.img-bg-2 {
+  background-color: #0e051d;
 }
 
 .button {
