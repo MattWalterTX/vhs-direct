@@ -58,4 +58,15 @@
 .button {
   background-color: rgb(229, 160, 250);
   color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Russo One', sans-serif;
+}
+
+.place-holder {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Russo One', sans-serif;
+}
+
+.text-box {
+  padding-top: 11em;
 }

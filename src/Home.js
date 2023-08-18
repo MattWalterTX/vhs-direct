@@ -17,13 +17,13 @@ const Home = () => {
           <p>GET VHS CASSETTES STREAMED DIRECTLY TO YOUR PREFRONTAL CORTEX</p>
           <div>
             <button className="button">PLEDGE FEALTY</button>
-            <input type="email" name="email" placeholder="EMAIL ADDRESS"/>
+            <input type="email" name="email" placeholder="EMAIL ADDRESS" className="place-holder"/>
           </div>
         </div>
       </div>
       <div className="chunk img-bg-1">
         <div className="img-container">
-          <div>
+          <div className="text-box">
             <h3>THE BEST ESCAPISM MONEY CAN BUY.</h3>
             <p>GIVE YOUR BRAIN A BREAK FROM WORK. WE'LL TAKE GOOD CARE OF IT WHILE YOU'RE AWAY</p>
           </div>
@@ -39,7 +39,7 @@ const Home = () => {
             {/* <p>IMG goes here</p> */}
             <img src={vhs2} alt="horror cassette 2" className="vhs-img" />
           </div>
-          <div>
+          <div className="text-box">
             <h3>EMBRACE THE SPOOK.</h3>
             <p>UNLEASH THE HALLOWEEN SPIRIT UPON YOUR UNSUSPECTING PEERS EVERY DAY OF THE YEAR.</p>
           </div>
