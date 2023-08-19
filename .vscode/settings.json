@@ -1,0 +1,32 @@
+{
+    "makefile.makePath": "C:\\Users\\mattr\\Downloads\\make-3.81-bin\\bin\\make.exe",
+    "makefile.makefilePath": "global-tv-roku/application/makefile",
+    "makefile.configurations": [
+        {
+            "name": "run",
+            "makeArgs": ["run"]
+        },
+        {
+            "name": "build",
+            "makeArgs": ["build"]
+        }
+    ],
+    "brightscript.format.formatSingleLineCommentType": "singlequote",
+    "brightscript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "brightscript.format.insertSpaceBetweenAssociativeArrayLiteralKeyAndColon": false,
+    "brightscript.format.keywordCase": "lower",
+    "brightscript.format.typeCase": "title",
+    "brightscript.output.clearOnLaunch": false,
+    "brightscript.output.focusOnLaunch": false,
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml",
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "file",
+        "files.trimTrailingWhitespace": true
+    },
+    "[brightscript]": {
+        "editor.defaultFormatter": "RokuCommunity.brightscript",
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "file"
+    }
+}
