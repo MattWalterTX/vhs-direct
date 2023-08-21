@@ -14,7 +14,7 @@ export const Block = styled.div`
 
 export const ContentBox = styled(Block)`
     border: 1px solid green;
-    margin: 15em 22.5em;
+    padding: 15em 22.5em;
 `;
 
 export const Block1 = styled(ContentBox)`
@@ -76,5 +76,4 @@ export const BG1 = styled.div`
 
 export const BG2 = styled(BG1)`
     background-image: url(${bg2});
-
 `;
