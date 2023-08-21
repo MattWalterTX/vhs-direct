@@ -1,23 +1,43 @@
-import React from "react"
-import "./Footer.css"
+import React from "react";
+import styled from "styled-components";
+import Logo from "@components/logo/Logo"
+
+const Container = styled.div`
+    align-items: flex-start;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    margin: 3.5em;
+`;
+
+const NavBox = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+`;
+
+const NavItems = styled.div`
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+`;
 
 const Footer = () => {
     return (
-        <div className="footer nav-box">
-            <div className="nav-box">
+        <Container>
+            <NavBox>
                 <h2>SITEMAP</h2>
-                <div className="nav-items">
+                <NavItems>
                     <p>HOME</p>
                     <p>ABOUT</p>
                     <p>BROWSE</p>
                     <p>SEARCH</p>
                     <p>FAQ</p>
-                </div>
-            </div>
-            <div className="logo">
-                <h2>VHS DIRECT</h2>
-            </div>
-        </div>
+                </NavItems>
+            </NavBox>
+            <Logo/>
+        </Container>
     )
 }
 

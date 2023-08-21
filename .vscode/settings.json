@@ -28,5 +28,8 @@
         "editor.defaultFormatter": "RokuCommunity.brightscript",
         "editor.formatOnSave": true,
         "editor.formatOnSaveMode": "file"
-    }
+    },
+    "cSpell.words": [
+        "Signin"
+    ]
 }
