@@ -1,0 +1,34 @@
+{
+    // AUTO-FORMATTING
+    // These settings enforce formatting when text is pasted and saved in VSCode.
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml"
+    },
+
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    // VSCODE BEHAVIOR
+    // These additions are admittidly a bit opinionated
+    "editor.acceptSuggestionOnCommitCharacter": true, // accept on commit character (e.g. ";" for JavaScript)
+    "editor.acceptSuggestionOnEnter": "off", // do not accept on ENTER or TAB
+    "editor.autoClosingBrackets": "beforeWhitespace",
+    "editor.autoClosingQuotes": "beforeWhitespace",
+    "editor.autoClosingDelete": "auto",
+    "editor.bracketPairColorization.enabled": true
+}
