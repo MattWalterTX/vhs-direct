@@ -1,12 +1,12 @@
 import React from "react";
-import { Block1,
+import { MainBlock,
+        Block1,
         Block2,
         Block3,
         Block4,
         ImgBox,
         VHSImg,
         TextBox,
-        SignUpBox,
         EmailInput,
         BG1,
         BG2 } from "@components/hero/Hero.styled";
@@ -16,7 +16,7 @@ import vhs2 from "@assets/img-vhs2.webp";
 
 const Hero = () => {
     return (
-        <div>
+        <MainBlock>
             <BG1>
                 <Block1>
                     <h3>SKIP THE WAIT</h3>
@@ -24,24 +24,24 @@ const Hero = () => {
                         GET VHS CASSETTES STREAMED DIRECTLY TO YOUR PREFRONTAL
                         CORTEX.
                     </p>
-                    <SignUpBox>
+                    <div>
                         <HeroButton>PLEDGE FEALTY</HeroButton>
                         <EmailInput
                             type="email"
                             name="email"
                             placeholder="EMAIL ADDRESS"
                         />
-                    </SignUpBox>
+                    </div>
                 </Block1>
             </BG1>
             <Block2>
                 <ImgBox>
                     <TextBox>
                         <h3>THE BEST ESCAPISM MONEY CAN BUY</h3>
-                            <p>
-                                GIVE YOUR BRAIN A BREAK FROM WORK. WE'LL TAKE GOOD
-                                CARE OF IT WHILE YOU'RE AWAY.
-                            </p>
+                        <p>
+                            GIVE YOUR BRAIN A BREAK FROM WORK. WE'LL TAKE GOOD
+                            CARE OF IT WHILE YOU'RE AWAY.
+                        </p>
                     </TextBox>
                     <div>
                         <VHSImg
@@ -77,7 +77,7 @@ const Hero = () => {
                     <BrowseButton>FEAST YOUR EYES</BrowseButton>
                 </Block4>
             </BG2>
-        </div>
+        </MainBlock>
     )
 }
 

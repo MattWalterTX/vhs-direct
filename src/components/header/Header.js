@@ -6,10 +6,10 @@ import { SigninButton } from "@components/button/Button"
 const Container = styled.div`
     border: 1px solid green;
     display: flex;
-    justify-content: space-between;
-    padding: 0em 5em;
+    justify-content: center;
+    gap: 75vw;
     position: absolute;
-    width: 91%;
+    width: 100%;
 `;
 
 const Header = () => {
