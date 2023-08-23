@@ -3,24 +3,29 @@ import styled from "styled-components";
 import Logo from "@components/logo/Logo"
 
 const Container = styled.div`
-    align-items: flex-start;
-    border: 1px solid red;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    margin: 3.5em;
+    justify-content: space-between;
+    text-align: start;
+    width: 20%;
+    padding: 5vh;
 `;
 
 const NavBox = styled.div`
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    justify-content: space-around;
+    padding-bottom: 5vh;
 `;
 
 const NavItems = styled.div`
-    align-items: flex-start;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
+    padding-left: 1vw;
+    text-align: start;
 `;
 
 const Footer = () => {
