@@ -1,0 +1,61 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=827846 to learn about workspace recommendations.
+    // Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+
+    // List of extensions which should be recommended for users of this workspace.
+    "recommendations": [
+        // * Better Comments
+        // special syntax highlighting in code comments
+        "aaron-bond.better-comments",
+
+        // * Alphabetize
+        // quick command to alphabetize selected lines (>P Alphabetize)
+        "castanhocorreia.alphabetize",
+
+        // * NPM Intellisense
+        // npm import autocomplete
+        "christian-kohler.npm-intellisense",
+
+        // * ESLint
+        // VSCode integration used for format-on-save
+        "dbaeumer.vscode-eslint",
+
+        // * TODO-Tree
+        // Adds dropdown on files for to-do comments
+        "Gruntfuggly.todo-tree",
+
+        // * Prettier
+        // VSCode integration used for format-on-save
+        "esbenp.prettier-vscode",
+
+        // * ES6 Import Formatter
+        // right-click option to sort ES6 imports alphabetically and adds a break between libraries and local imports.
+        "henry-li.vscode-import-formatter",
+
+        // * ENV
+        // formatting and syntax highlighting for .env files
+        "IronGeek.vscode-env",
+
+        // * Live Share
+        // Collaborative sessions. Great for paired sessions.
+        "ms-vsliveshare.vsliveshare",
+
+        // * Rainbow CSV
+        // syntax hightlighting for .csv files
+        "mechatroner.rainbow-csv",
+
+        // * Indent Rainbow
+        // colorizes each indent level
+        "oderwat.indent-rainbow",
+
+        // * XML
+        // formatting for .xml files
+        "redhat.vscode-xml",
+
+        // * VSCode Styled Components
+        // syntax highlighting for styled-components
+        "styled-components.vscode-styled-components"
+    ],
+    // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
+    "unwantedRecommendations": []
+}
