@@ -35,7 +35,7 @@ export const Block1 = styled(ContentBox)`
 `;
 
 export const EmailInput = styled.input`
-    font-family: 'Russo One', sans-serif;
+    font-family: 'JetBrains Mono', monospace;
     font-size: 2vh;
     height: 5vh;
     margin-left: 2vw;

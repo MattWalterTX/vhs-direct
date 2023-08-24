@@ -5,17 +5,35 @@ import { SigninButton } from "@components/button/Button"
 
 const Container = styled.div`
     display: flex;
-    justify-content: center;
-    gap: 75vw;
+    justify-content: space-between;
+    margin-left: 2vw;
     position: absolute;
-    width: 100%;
+    width: 95%;
+`;
+
+const NavBox = styled.div`
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1vh;
+    width: 50%;
+`;
+
+const WillBeLinx = styled.p`
+    font-size: 2rem;
 `;
 
 const Header = () => {
     return (
         <Container>
             <Logo></Logo>
-            <SigninButton>SIGN IN</SigninButton>
+            <NavBox>
+                <WillBeLinx>HOME</WillBeLinx>
+                <WillBeLinx>ABOUT</WillBeLinx>
+                <WillBeLinx>BROWSE</WillBeLinx>
+                <WillBeLinx>SEARCH</WillBeLinx>
+                <WillBeLinx>FAQ</WillBeLinx>
+                <SigninButton>SIGN IN</SigninButton>
+            </NavBox>
         </Container>
     )
 }

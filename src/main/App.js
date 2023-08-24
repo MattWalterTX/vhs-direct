@@ -8,7 +8,7 @@ import BadURL from "@pages/404/BadURL"
 
 const AppWrapper = styled.div`
     color: white;
-    font-family: "Russo One", sans-serif;
+    font-family: 'JetBrains Mono', monospace;
     text-align: center;
     background: radial-gradient(red 45%, #340935, #11020e);
 `

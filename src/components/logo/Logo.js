@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import vhsIcon from "@assets/test-icons/vhsIcon.svg"
 
 const Container = styled.div`
     display: flex;
@@ -9,17 +10,18 @@ const Container = styled.div`
 `;
 
 const Icon = styled.img`
-    /* needs asset */
+    height: 5vh;
+    width: 5vw;
 `;
 
 const Text = styled.p`
-    font-size: 3vh;
+    font-size: 2rem;
 `;
 
 const Logo = () => {
     return (
         <Container>
-            <Icon></Icon>
+            <Icon alt="vhs logo icon" src={vhsIcon} />
             <Text>VHS DIRECT</Text>
         </Container>
     )
