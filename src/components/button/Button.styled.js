@@ -4,16 +4,17 @@ export const Button = styled.button`
     background-color: rgb(229, 160, 250);
     color: black;
     font-family: 'JetBrains Mono', monospace;
-    font-size: 2vh;
-    font-weight: bold;
-    height: 6vh;
-    width: 20vw;
+    font-size: 1.5vh;
+    font-weight: 550;
+    height: 3vh;
+    width: 12vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 `;
 
 export const SigninButton = styled(Button)`
-    justify-self: flex-end;
-    margin-top: 5vh;
-    width: 10vw;
+    margin-right: 2vw;
 `;
 
 export const HeroButton = styled(Button)`

@@ -5,24 +5,23 @@ import vhsIcon from "@assets/test-icons/vhsIcon.svg"
 const Container = styled.div`
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-align: start;
+    /* width: 5vw; */
+    padding: 2vw;
+    justify-content: flex-start;
+
 `;
 
 const Icon = styled.img`
-    height: 5vh;
-    width: 5vw;
+    height: 4vh;
+    align-self: center;
+    justify-self: center;
 `;
 
-const Text = styled.p`
-    font-size: 2rem;
-`;
 
 const Logo = () => {
     return (
         <Container>
             <Icon alt="vhs logo icon" src={vhsIcon} />
-            <Text>VHS DIRECT</Text>
         </Container>
     )
 }
