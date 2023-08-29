@@ -15,7 +15,8 @@ export const SigninButton = styled(Button)`
 `;
 
 export const HeroButton = styled(Button)`
-    /* width: 10vw; */
+    width: 10vw;
+    height: 4vh;
 `;
 
 export const BrowseButton = styled(HeroButton)`

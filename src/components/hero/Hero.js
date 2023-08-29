@@ -4,9 +4,11 @@ import { MainBlock,
         Block2,
         Block3,
         Block4,
+        Title,
         ImgBox,
         VHSImg,
         TextBox,
+        EmailContainer,
         EmailInput,
         BG1,
         BG2 } from "@components/hero/Hero.styled";
@@ -19,25 +21,25 @@ const Hero = () => {
         <MainBlock>
             <BG1>
                 <Block1>
-                    <h3>SKIP THE WAIT</h3>
+                    <Title>SKIP THE WAIT</Title>
                     <p>
                         GET VHS CASSETTES STREAMED DIRECTLY TO YOUR PREFRONTAL
                         CORTEX.
                     </p>
-                    <div>
+                    <EmailContainer>
                         <HeroButton>PLEDGE FEALTY</HeroButton>
                         <EmailInput
                             type="email"
                             name="email"
                             placeholder="EMAIL ADDRESS"
                         />
-                    </div>
+                    </EmailContainer>
                 </Block1>
             </BG1>
             <Block2>
                 <ImgBox>
                     <TextBox>
-                        <h3>THE BEST ESCAPISM MONEY CAN BUY</h3>
+                        <Title>THE BEST ESCAPISM MONEY CAN BUY</Title>
                         <p>
                             GIVE YOUR BRAIN A BREAK FROM WORK. WE'LL TAKE GOOD
                             CARE OF IT WHILE YOU'RE AWAY.
@@ -60,7 +62,7 @@ const Hero = () => {
                         />
                     </div>
                     <TextBox>
-                        <h3>EMBRACE THE SPOOK</h3>
+                        <Title>EMBRACE THE SPOOK</Title>
                         <p>
                             UNLEASH THE HALLOWEEN SPIRIT UPON YOUR UNSUSPECTING
                             PEERS EVERY DAY OF THE YEAR.
@@ -70,7 +72,7 @@ const Hero = () => {
             </Block3>
             <BG2>
                 <Block4>
-                    <h3>NOT READY TO SEAL YOUR FATE?</h3>
+                    <Title>NOT READY TO SEAL YOUR FATE?</Title>
                     <p>
                         BROWSE OUT LIBRARY FOR FREE.
                     </p>

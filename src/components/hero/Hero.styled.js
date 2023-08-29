@@ -4,9 +4,11 @@ import bg2 from "@assets/bg-tv1.webp";
 
 export const MainBlock = styled.div`
     background-size: cover;
+    font-size: 1.25em;
+
     display: flex;
     flex-direction: column;
-    font-size: 1.125em;
+    flex-wrap: wrap;
 `;
 
 export const BG1 = styled.div`
@@ -14,10 +16,11 @@ export const BG1 = styled.div`
     background-image: url(${bg1});
     background-size: cover;
     background-position: center;
-    display: flex;
     height: 100vh;
-    justify-content: center;
     width: 100vw;
+    
+    display: flex;
+    justify-content: center;
 `;
 
 export const BG2 = styled(BG1)`
@@ -26,18 +29,33 @@ export const BG2 = styled(BG1)`
 
 export const ContentBox = styled(MainBlock)`
     align-content: center;
+    
     display: flex;
     justify-content: center;
 `;
 
 export const Block1 = styled(ContentBox)`
     align-items: flex-start;
+    margin-bottom: 0rem;
+    font-size: 2.5rem;
+    `;
+
+export const Title = styled.p`
+        font-weight: 600;
+        margin-bottom: 0rem;
+        font-size: 4rem;
+    `;
+
+export const EmailContainer = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
 `;
 
 export const EmailInput = styled.input`
     font-family: 'JetBrains Mono', monospace;
-    font-size: 2vh;
-    height: 5vh;
+    font-size: 1.5rem;
+    height: 3vh;
     margin-left: 2vw;
     width: 35vw;
 `;
@@ -49,11 +67,12 @@ export const Block4 = styled(ContentBox)`
 export const Block2 = styled(MainBlock)`
     align-content: center;
     background-color: #180511;
-    display: flex;
     height: 100vh;
-    justify-content: center;
     text-align: start;
     width: 100vw;
+
+    display: flex;
+    justify-content: center;
 `;
 
 export const Block3 = styled(Block2)`
@@ -61,17 +80,20 @@ export const Block3 = styled(Block2)`
 `;
 
 export const ImgBox = styled.div`
+    /* padding: 5rem; */
+
     display: flex;
     justify-content: space-around;
 `;
 
 export const TextBox = styled.div`
     align-content: center;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
 `;
 
 export const VHSImg = styled.img`
-    height: 60vh;
+    height: 50vh;
 `;
