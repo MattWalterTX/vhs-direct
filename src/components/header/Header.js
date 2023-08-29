@@ -4,26 +4,26 @@ import Logo from "@components/logo/Logo";
 import { SigninButton } from "@components/button/Button"
 
 const Container = styled.div`
-    display: flex;
     background-color: black;
+    position: absolute;
+    font-weight: 400;
+    font-size: 1.5rem;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    position: absolute;
-    width: 100vw;
-    font-weight: 400;
-    font-size: 2.5vh;
-    height: 10vh;
 `;
 
 const NavBox = styled.div`
     display: flex;
     align-items: center;
-    width: 35%;
+    justify-content: space-between;
     gap: 1vw;
     `;
 
 const WillBeLinx = styled.div`
-    width: 7vw;
+
 `;
 
 const Header = () => {

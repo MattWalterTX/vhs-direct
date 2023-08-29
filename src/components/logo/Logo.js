@@ -3,12 +3,7 @@ import styled from "styled-components";
 import vhsIcon from "@assets/test-icons/vhsIcon.svg"
 
 const Container = styled.div`
-    display: flex;
-    align-items: center;
-    /* width: 5vw; */
     padding: 2vw;
-    justify-content: flex-start;
-
 `;
 
 const Icon = styled.img`
