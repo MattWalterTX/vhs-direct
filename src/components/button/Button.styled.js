@@ -15,11 +15,13 @@ export const SigninButton = styled(Button)`
 `;
 
 export const HeroButton = styled(Button)`
-    width: 10vw;
-    height: 4vh;
+    width: 17.5rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
 `;
 
 export const BrowseButton = styled(HeroButton)`
     align-self: center;
     text-align: center;
+    margin-top: 5vh;
 `;

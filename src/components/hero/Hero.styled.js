@@ -9,6 +9,8 @@ export const MainBlock = styled.div`
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    width: 80vw;
+
 `;
 
 export const BG1 = styled.div`
@@ -18,6 +20,7 @@ export const BG1 = styled.div`
     background-position: center;
     height: 100vh;
     width: 100vw;
+    /* opacity: 90%; */
     
     display: flex;
     justify-content: center;
@@ -29,39 +32,63 @@ export const BG2 = styled(BG1)`
 
 export const ContentBox = styled(MainBlock)`
     align-content: center;
-    
-    display: flex;
+    width: 60vw;
+    text-shadow: 2px 2px 8px black;
+    /* display: flex; */
     justify-content: center;
 `;
 
 export const Block1 = styled(ContentBox)`
-    align-items: flex-start;
+    /* align-items: flex-start; */
     margin-bottom: 0rem;
     font-size: 2.5rem;
+    display: flex;
+    align-items: flex-start;
     `;
 
+export const HeroTextTop = styled.p`
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    margin: 3vh 0vw 5vh 0vw;
+    text-align: start;
+`;
+
+export const HeroTextBottom = styled.p`
+    /* display: flex; */
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 2rem
+`;
+
 export const Title = styled.p`
-        font-weight: 600;
-        margin-bottom: 0rem;
-        font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 0rem;
+    font-size: 4rem;
     `;
 
 export const EmailContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 1rem;
 `;
 
 export const EmailInput = styled.input`
     font-family: 'JetBrains Mono', monospace;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+    
     height: 3vh;
     margin-left: 2vw;
     width: 35vw;
+    padding: 0.5rem;
 `;
 
-export const Block4 = styled(ContentBox)`
+export const Block4 = styled(Block1)`
     text-align: center;
+    align-items: center;
+    width: 70rem;
+    padding-top: 15rem;
 `;
 
 export const Block2 = styled(MainBlock)`
@@ -88,6 +115,7 @@ export const ImgBox = styled.div`
 
 export const TextBox = styled.div`
     align-content: center;
+    text-shadow: 1px 1px 2px black;
 
     display: flex;
     flex-direction: column;

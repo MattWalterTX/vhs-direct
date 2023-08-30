@@ -4,6 +4,8 @@ import { MainBlock,
         Block2,
         Block3,
         Block4,
+        HeroTextTop,
+        HeroTextBottom,
         Title,
         ImgBox,
         VHSImg,
@@ -22,10 +24,10 @@ const Hero = () => {
             <BG1>
                 <Block1>
                     <Title>SKIP THE WAIT</Title>
-                    <p>
+                    <HeroTextTop>
                         GET VHS CASSETTES STREAMED DIRECTLY TO YOUR PREFRONTAL
                         CORTEX.
-                    </p>
+                    </HeroTextTop>
                     <EmailContainer>
                         <HeroButton>PLEDGE FEALTY</HeroButton>
                         <EmailInput
@@ -73,9 +75,9 @@ const Hero = () => {
             <BG2>
                 <Block4>
                     <Title>NOT READY TO SEAL YOUR FATE?</Title>
-                    <p>
+                    <HeroTextBottom>
                         BROWSE OUT LIBRARY FOR FREE.
-                    </p>
+                    </HeroTextBottom>
                     <BrowseButton>FEAST YOUR EYES</BrowseButton>
                 </Block4>
             </BG2>
