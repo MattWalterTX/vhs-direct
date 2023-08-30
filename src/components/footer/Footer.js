@@ -7,8 +7,9 @@ import faqIcon from "@assets/test-icons/faqIcon.svg"
 import aboutIcon from "@assets/test-icons/aboutIcon.svg"
 import { Container,
         NavBox,
-        NavList,
         NavItem,
+        NavTitle,
+        NavText,
         Icon
     } from "@components/footer/Footer.styled"
 
@@ -16,29 +17,29 @@ const Footer = () => {
     return (
         <Container>
             <NavBox>
-                <h2>SITEMAP</h2>
-                <NavList>
+                <NavTitle>SITEMAP</NavTitle>
+                <div>
                     <NavItem>
                         <Icon alt="home icon" src={homeIcon} />
-                        <p>HOME</p>
+                        <NavText>HOME</NavText>
                     </NavItem>
                     <NavItem>
                         <Icon alt="about icon" src={aboutIcon} />
-                        <p>ABOUT</p>
+                        <NavText>ABOUT</NavText>
                     </NavItem>
                     <NavItem>
                         <Icon alt="vhs icon" src={vhsIcon} />
-                        <p>BROWSE</p>
+                        <NavText>BROWSE</NavText>
                     </NavItem>
                     <NavItem>
                         <Icon alt="search icon" src={searchIcon} />
-                        <p>SEARCH</p>
+                        <NavText>SEARCH</NavText>
                     </NavItem>
                     <NavItem>
                         <Icon alt="faq icon" src={faqIcon} />
-                        <p>FAQ</p>
+                        <NavText>FAQ</NavText>
                     </NavItem>
-                </NavList>
+                </div>
             </NavBox>
             <Logo/>
         </Container>

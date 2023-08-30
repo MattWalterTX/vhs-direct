@@ -8,6 +8,7 @@ import { MainBlock,
         HeroTextBottom,
         Title,
         ImgBox,
+        ImgText,
         VHSImg,
         TextBox,
         EmailContainer,
@@ -41,11 +42,11 @@ const Hero = () => {
             <Block2>
                 <ImgBox>
                     <TextBox>
-                        <Title>THE BEST ESCAPISM MONEY CAN BUY</Title>
-                        <p>
+                        <Title>THE BEST ESCAPISM MONEY CAN BUY.</Title>
+                        <ImgText>
                             GIVE YOUR BRAIN A BREAK FROM WORK. WE'LL TAKE GOOD
                             CARE OF IT WHILE YOU'RE AWAY.
-                        </p>
+                        </ImgText>
                     </TextBox>
                     <div>
                         <VHSImg
@@ -65,10 +66,10 @@ const Hero = () => {
                     </div>
                     <TextBox>
                         <Title>EMBRACE THE SPOOK</Title>
-                        <p>
+                        <ImgText>
                             UNLEASH THE HALLOWEEN SPIRIT UPON YOUR UNSUSPECTING
                             PEERS EVERY DAY OF THE YEAR.
-                        </p>
+                        </ImgText>
                     </TextBox>
                 </ImgBox>
             </Block3>

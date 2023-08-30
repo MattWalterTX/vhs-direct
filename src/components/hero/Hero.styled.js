@@ -5,12 +5,10 @@ import bg2 from "@assets/bg-tv1.webp";
 export const MainBlock = styled.div`
     background-size: cover;
     font-size: 1.25em;
-
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     width: 80vw;
-
 `;
 
 export const BG1 = styled.div`
@@ -20,8 +18,6 @@ export const BG1 = styled.div`
     background-position: center;
     height: 100vh;
     width: 100vw;
-    /* opacity: 90%; */
-    
     display: flex;
     justify-content: center;
 `;
@@ -34,30 +30,22 @@ export const ContentBox = styled(MainBlock)`
     align-content: center;
     width: 60vw;
     text-shadow: 2px 2px 8px black;
-    /* display: flex; */
     justify-content: center;
 `;
 
 export const Block1 = styled(ContentBox)`
-    /* align-items: flex-start; */
     margin-bottom: 0rem;
     font-size: 2.5rem;
     display: flex;
     align-items: flex-start;
-    `;
+`;
 
 export const HeroTextTop = styled.p`
-    /* display: flex; */
-    /* justify-content: flex-start; */
     margin: 3vh 0vw 5vh 0vw;
     text-align: start;
 `;
 
 export const HeroTextBottom = styled.p`
-    /* display: flex; */
-    /* text-align: center; */
-    /* justify-content: center; */
-    /* align-items: center; */
     margin: 2rem
 `;
 
@@ -65,7 +53,7 @@ export const Title = styled.p`
     font-weight: 600;
     margin-bottom: 0rem;
     font-size: 4rem;
-    `;
+`;
 
 export const EmailContainer = styled.div`
     display: flex;
@@ -77,7 +65,6 @@ export const EmailContainer = styled.div`
 export const EmailInput = styled.input`
     font-family: 'JetBrains Mono', monospace;
     font-size: 1.25rem;
-    
     height: 3vh;
     margin-left: 2vw;
     width: 35vw;
@@ -97,7 +84,6 @@ export const Block2 = styled(MainBlock)`
     height: 100vh;
     text-align: start;
     width: 100vw;
-
     display: flex;
     justify-content: center;
 `;
@@ -107,16 +93,18 @@ export const Block3 = styled(Block2)`
 `;
 
 export const ImgBox = styled.div`
-    /* padding: 5rem; */
-
     display: flex;
     justify-content: space-around;
+`;
+
+export const ImgText = styled(HeroTextTop)`
+    font-size: 2.5rem;
 `;
 
 export const TextBox = styled.div`
     align-content: center;
     text-shadow: 1px 1px 2px black;
-
+    width: 50vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -124,4 +112,6 @@ export const TextBox = styled.div`
 
 export const VHSImg = styled.img`
     height: 50vh;
+    padding: 10vw;
+
 `;
