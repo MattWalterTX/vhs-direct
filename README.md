@@ -19,11 +19,10 @@ To make the project stand out, we're going to take a classic project — a Netfl
     
     Addison Short is a senior software developer with 7+ years of industry experience. 
     
-    They will perform code reviews of @Matt‘s work and serve as his mentor for this project. They may implement some frontend user stories with @Matt but those contributions will be kept to a minimum.
+    They will perform code reviews of Matt‘s work and serve as his mentor for this project. They may implement some frontend user stories with @Matt but those contributions will be kept to a minimum.
     
     They will fill in the complimentary roles adjacent to the developer — acting as the product owner, designer, DevOps, and QA. They are responsible for scoping the work, preparing the tickets, rendering the design mocks for the product, and setting up backend APIs and services for the frontend to consume. 
     
-
 ## Features Overview
 
 - Static Pages — hardcoded in the app
