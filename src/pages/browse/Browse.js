@@ -1,9 +1,9 @@
-import React from "react"
+import React from "react";
 import { styled } from "styled-components"
 import { ReturnButton } from "@components/button/Button";
 import { NavLink } from "react-router-dom";
 
-const AboutContent = styled.div`
+const BrowseContent = styled.div`
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -11,13 +11,13 @@ const AboutContent = styled.div`
     height: 50vh;
 `;
 
-const About = () => {
+const Browse = () => {
     return (
-        <AboutContent>
-            <h1>About content will go here.</h1>
+        <BrowseContent>
+            <h1>Category Browsing content will go here.</h1>
             <ReturnButton><NavLink to="/">RETURN HOME</NavLink></ReturnButton>
-        </AboutContent>
+        </BrowseContent>
     )
 }
 
-export default About
+export default Browse

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { NavLink } from "react-router-dom";
 
 export const Container = styled.div`
     align-items: center;
@@ -13,8 +14,9 @@ export const NavBox = styled.div`
     padding-bottom: 5vh;
 `;
 
-export const NavItem = styled.div`
+export const NavItem = styled(NavLink)`
     display: flex;
+    color: white;
     justify-content: flex-start;
 `;
 

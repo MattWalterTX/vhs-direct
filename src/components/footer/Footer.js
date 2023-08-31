@@ -19,23 +19,23 @@ const Footer = () => {
             <NavBox>
                 <NavTitle>SITEMAP</NavTitle>
                 <div>
-                    <NavItem>
+                    <NavItem to="/">
                         <Icon alt="home icon" src={homeIcon} />
                         <NavText>HOME</NavText>
                     </NavItem>
-                    <NavItem>
+                    <NavItem to="/about">
                         <Icon alt="about icon" src={aboutIcon} />
                         <NavText>ABOUT</NavText>
                     </NavItem>
-                    <NavItem>
+                    <NavItem to="/browse">
                         <Icon alt="vhs icon" src={vhsIcon} />
                         <NavText>BROWSE</NavText>
                     </NavItem>
-                    <NavItem>
+                    <NavItem to="/search">
                         <Icon alt="search icon" src={searchIcon} />
                         <NavText>SEARCH</NavText>
                     </NavItem>
-                    <NavItem>
+                    <NavItem to="/faq">
                         <Icon alt="faq icon" src={faqIcon} />
                         <NavText>FAQ</NavText>
                     </NavItem>

@@ -25,3 +25,7 @@ export const BrowseButton = styled(HeroButton)`
     text-align: center;
     margin-top: 5vh;
 `;
+
+export const ReturnButton = styled(SigninButton)`
+    
+`;

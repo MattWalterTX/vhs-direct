@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import Logo from "@components/logo/Logo";
 import { SigninButton } from "@components/button/Button"
@@ -22,8 +23,8 @@ const NavBox = styled.div`
     gap: 1vw;
     `;
 
-const WillBeLinx = styled.div`
-
+const NavItem = styled(NavLink)`
+    color: white;
 `;
 
 const Header = () => {
@@ -31,11 +32,11 @@ const Header = () => {
         <Container>
             <Logo></Logo>
             <NavBox>
-                <WillBeLinx>HOME</WillBeLinx>
-                <WillBeLinx>ABOUT</WillBeLinx>
-                <WillBeLinx>BROWSE</WillBeLinx>
-                <WillBeLinx>SEARCH</WillBeLinx>
-                <WillBeLinx>FAQ</WillBeLinx>
+                <NavItem to="/">HOME</NavItem>
+                <NavItem to="/about">ABOUT</NavItem>
+                <NavItem to="/browse">BROWSE</NavItem>
+                <NavItem to="/search">SEARCH</NavItem>
+                <NavItem to="/faq">FAQ</NavItem>
                 <SigninButton>SIGN IN</SigninButton>
             </NavBox>
         </Container>
