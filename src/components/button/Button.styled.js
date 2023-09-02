@@ -8,6 +8,12 @@ export const Button = styled.button`
     font-weight: 550;
     height: 2rem;
     width: 10rem;
+    &:hover {
+        background-color: rgb(221, 66, 245);
+        color: white;
+        border: 0.5px solid white;
+        cursor: pointer;
+    }
 `;
 
 export const SigninButton = styled(Button)`

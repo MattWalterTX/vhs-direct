@@ -16,6 +16,12 @@ export const NavBox = styled.div`
 export const NavItem = styled.div`
     display: flex;
     justify-content: flex-start;
+    &:hover {
+        background-color: rgb(221, 66, 245);
+        color: black;
+        border: 0.5px solid white;
+        cursor: pointer;
+    }
 `;
 
 export const NavTitle = styled.p`

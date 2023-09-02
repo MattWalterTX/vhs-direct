@@ -23,7 +23,11 @@ const NavBox = styled.div`
     `;
 
 const WillBeLinx = styled.div`
-
+    &:hover {
+        color: black;
+        background-color: rgb(229, 160, 250);
+        cursor: pointer;
+    }
 `;
 
 const Header = () => {
